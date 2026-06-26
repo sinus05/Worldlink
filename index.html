@@ -271,7 +271,19 @@
     .footer-grid{flex-direction:column;align-items:flex-start;}
     .tg-float{width:50px;height:50px;bottom:16px;right:16px;}
   }
+  /* FAQ */
+  .faq-list{max-width:760px;margin:0 auto;}
+  .faq-item{border-bottom:1px solid #e5e7eb;}
+  .faq-item summary{cursor:pointer;padding:1.1rem 0;font-weight:600;font-size:1rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;}
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{content:"+";font-size:1.4rem;font-weight:300;flex-shrink:0;transition:transform .2s;}
+  .faq-item[open] summary::after{transform:rotate(45deg);}
+  .faq-item p{padding:.25rem 0 1.1rem;margin:0;color:#4b5563;line-height:1.7;}
+  .faq-item a{color:var(--navy);}
 </style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What English courses do you offer?","acceptedAnswer":{"@type":"Answer","text":"We offer General English (Beginner to Advanced), Academic English, Business English, IELTS and exam preparation, Dissertation Support, Business Communication, Virtual Meeting Support, Visa Application Support, Study & Living Abroad guidance, School & College Applications, and Professional Representation."}},{"@type":"Question","name":"Are classes in-person or online?","acceptedAnswer":{"@type":"Answer","text":"All classes are held in-person at our academy at Shota Rustaveli 13A, Tashkent. We do not currently offer online classes."}},{"@type":"Question","name":"Are lessons individual or in a group?","acceptedAnswer":{"@type":"Answer","text":"All lessons at WorldLink Academy are individual (one-on-one). Every student receives dedicated, personalised instruction tailored to their specific goals and learning pace."}},{"@type":"Question","name":"Is there a free trial lesson?","acceptedAnswer":{"@type":"Answer","text":"Yes — we offer a free trial lesson for all new students. Contact us via the enquiry form or call +998 77 481 11 22 to book."}},{"@type":"Question","name":"How much do courses cost?","acceptedAnswer":{"@type":"Answer","text":"Monthly pricing starts from 1,170,000 UZS for one lesson per week (4 lessons/month). The most popular plan is 3 days per week (12 lessons/month) at 3,500,000 UZS. Full-week study (7 days, 28 lessons/month) is 8,120,000 UZS. Every lesson is 1 hour 30 minutes."}},{"@type":"Question","name":"How long does IELTS preparation take?","acceptedAnswer":{"@type":"Answer","text":"Most students benefit from 2 to 4 months of focused preparation depending on their starting level and target band score. Book a free consultation for a personalised study plan."}},{"@type":"Question","name":"Can you help with UK student visa applications?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our Visa Application Support service covers document preparation, personal statement guidance, and interview coaching for UK study visa applications."}},{"@type":"Question","name":"How do I enrol at WorldLink Academy?","acceptedAnswer":{"@type":"Answer","text":"Fill in our enquiry form at worldlinkacademy.org or call +998 77 481 11 22. We will arrange a free trial lesson and assessment, then recommend the course and schedule that suits you best."}}]}
+</script>
 </head>
 <body>
 
@@ -454,6 +466,59 @@
     <p class="pricing-note">Each lesson is 1 hour 30 minutes.</p>
     <div class="pricing-cta fade-up">
       <a href="#enquiry" class="btn btn-navy">Free Consultation</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="eyebrow">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list fade-up">
+
+      <details class="faq-item">
+        <summary>What English courses do you offer?</summary>
+        <p>We offer General English (Beginner to Advanced), Academic English, Business English, IELTS and exam preparation, Dissertation Support, Business Communication, Virtual Meeting Support, Visa Application Support, Study &amp; Living Abroad guidance, School &amp; College Applications, and Professional Representation.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Are classes in-person or online?</summary>
+        <p>All classes are held in-person at our academy at Shota Rustaveli 13A, Tashkent. We do not currently offer online classes.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Are lessons individual or in a group?</summary>
+        <p>All lessons at WorldLink Academy are individual (one-on-one). Every student receives dedicated, personalised instruction tailored to their specific goals and learning pace.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is there a free trial lesson?</summary>
+        <p>Yes — we offer a free trial lesson for all new students so you can experience the teaching style before committing. <a href="#enquiry">Book your free trial</a> through our enquiry form or call us on <a href="tel:+998774811122">+998 77 481 11 22</a>.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>How much do courses cost?</summary>
+        <p>Monthly pricing starts from 1,170,000 UZS for one lesson per week (4 lessons/month). The most popular plan is 3 days per week — 12 lessons per month — at 3,500,000 UZS. Full-week intensive study (7 days, 28 lessons/month) is 8,120,000 UZS. Every lesson is 1 hour 30 minutes.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>How long does IELTS preparation take?</summary>
+        <p>It depends on your starting level and target band score. Most students benefit from 2–4 months of focused preparation. Book a free consultation and we will assess your current level and recommend a personalised study plan.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can you help with UK student visa applications?</summary>
+        <p>Yes. Our Visa Application Support service covers document preparation, personal statement guidance, and interview coaching specifically for UK study visa applications.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I enrol at WorldLink Academy?</summary>
+        <p>Fill in our <a href="#enquiry">enquiry form</a> or call <a href="tel:+998774811122">+998 77 481 11 22</a>. We will arrange a free trial lesson and assessment, then recommend the course and schedule that suits you best.</p>
+      </details>
+
     </div>
   </div>
 </section>
