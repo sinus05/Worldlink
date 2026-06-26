@@ -1,4 +1,4 @@
-User-agent: *
+ser-agent: *
 Allow: /
 
-Sitemap: https://worldlinklb.vercel.app/sitemap.xml
+Sitemap: https://worldlinkacademy.org/sitemap.xml
